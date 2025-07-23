@@ -1,0 +1,19 @@
+{
+  "global": {
+    "scrape_interval": "15s",
+    "evaluation_interval": "15s"
+  },
+  "scrape_configs": [
+    {
+      "job_name": "masquerade-mcp",
+      "static_configs": [
+        {
+          "targets": [
+            "masquerade-mcp:8000"
+          ]
+        }
+      ],
+      "metrics_path": "/metrics"
+    }
+  ]
+}
