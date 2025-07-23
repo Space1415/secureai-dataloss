@@ -1,0 +1,12 @@
+
+{
+    "database": {
+        "host": "localhost",
+        "user": "admin",
+        "password": "secret123"
+    },
+    "api": {
+        "key": "sk-1234567890abcdef"
+    }
+}
+            
